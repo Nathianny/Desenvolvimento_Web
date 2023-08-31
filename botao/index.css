@@ -1,0 +1,10 @@
+button{
+    background-color: brown;
+    color: antiquewhite;
+    width: 100px;
+}
+
+button:hover{
+    background-color: antiquewhite;
+    color: brown;
+}

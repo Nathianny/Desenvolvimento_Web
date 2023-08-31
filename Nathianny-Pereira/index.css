@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+header h1{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: whitesmoke;
+    border: 2px solid gray;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30px;
+}
+
+li{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li :hover{
+    background-color: darkcyan;
+    border-bottom: 3px solid darkgray;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sessão{
+    height: 500px;
+    width: 100%;
+}
+
+section#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.ibmr.br/wp-content/uploads/2022/09/ENFERMEIROS.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home h1{
+    color: white;
+}
+
+section#portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.ibmr.br/wp-content/uploads/2022/09/ENFERMEIROS.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+section#servicos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.ibmr.br/wp-content/uploads/2022/09/ENFERMEIROS.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    color: white;
+}
+
+section#contato{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    background-image: url(https://www.ibmr.br/wp-content/uploads/2022/09/ENFERMEIROS.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+footer{
+    background-color: whitesmoke;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+footer p{
+    color: black;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    header{
+        flex-direction: column;
+        padding: 20px;
+    }    
+}
+
+@media  and (max-width: 600px){
+    section#home{
+        flex-direction: column;
+        padding: 20px;
+    }
+    p.branco{
+        text-align: center;
+    }
+
+    #texto h1{
+        text-align: center;
+    }
+}
